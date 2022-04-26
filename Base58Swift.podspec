@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "Base58Swift"
-  s.version      = "2.1.11"
+  s.version      = "2.1.12"
   s.summary      = "A pure swift implementation of base58 string encoding and decoding."
   s.description  = <<-DESC
   A pure swift implementation of base58 string encoding and decoding. Based off of https://github.com/jbenet/go-base58.
@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = "8.0"
   s.osx.deployment_target = "10.10"
 
-  s.dependency "BigInt", "~> 5.0.0"
+  s.dependency "BigInt", "~> 5.2.0"
 
   s.test_spec "Tests" do |test_spec|
     test_spec.source_files = "Base58SwiftTests/*.swift"
